@@ -57,7 +57,7 @@ export default class Calculator extends Component {
 
 
     addDigit(n) {
-        if (n === '.' && this.state.displayValues.includes('.')) {
+        if (n === '.' && this.state.displayValue.includes('.')) {
             //regra para o (ponto .) não ser colocado mais de uma vez
 
             return
